@@ -21,11 +21,11 @@ Save the data to the file
 
 # CODE
 ```
-Program Developed: Shafeeq Ahamed.S
-Register number:212221230092
+Program Developed : Venkatesh E
+Register number   : 212221230119
 ```
 # Data.csv :
-```
+```python
 import pandas as pd
 df=pd.read_csv("data.csv")
 df
@@ -83,7 +83,7 @@ df5=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'City',
 df5
 ```
 # Encoding.csv :
-```
+```python
 import pandas as pd
 df=pd.read_csv("Encoding Data.csv")
 df
@@ -133,7 +133,7 @@ df4=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'nom_0'
 df4
 ```
 # Titanic.csv :
-```
+```python
 import pandas as pd
 df=pd.read_csv("titanic_dataset.csv")
 df
@@ -191,63 +191,63 @@ df5
 # OUPUT
 # Data.csv :
 ## Initial Dataset:
-![](o1.png)
+![](img/o1.png)
 ## Binary Encoding:
-![](o2.png)
+![](img/o2.png)
 
-![](o3.png)
+![](img/o3.png)
 ## Encoded Dataset:
-![](04.png)
+![](img/04.png)
 ## Data Scaling using MinMaxScaler:
-![](o5.png)
+![](img/o5.png)
 ## Data Scaling using StandardScaler:
-![](o6.png)
+![](img/o6.png)
 ## Data Scaling using MaxAbsScaler:
-![](o7.png)
+![](img/o7.png)
 ## Data Scaling using RobustScaler:
-![](o8.png)
+![](img/o8.png)
 
 # Encoding.csv :
 ## Initial Dataset:
-![](o9.png)
+![](img/o9.png)
 ## Binary Encoding:
-![](o10.png)
+![](img/o10.png)
 
-![](o11.png)
+![](img/o11.png)
 ## Encoded Dataset:
-![](o12.png)
+![](img/o12.png)
 ## Data Scaling using MinMaxScaler:
-![](o13.png)
+![](img/o13.png)
 ## Data Scaling using StandardScaler:
-![](o14.png)
+![](img/o14.png)
 ## Data Scaling using MaxAbsScaler:
-![](o15.png)
+![](img/o15.png)
 ## Data Scaling using RobustScaler:
-![](o16.png)
+![](img/o16.png)
 
 # Titanic.csv :
 ## Initial Dataset:
-![](o22.png)
+![](img/o22.png)
 ## Data cleaning before encoding:
-![](o17.png)
+![](img/o17.png)
 
-![](o18.png)
+![](img/o18.png)
 
-![](o19.png)
+![](img/o19.png)
 ## Cleaned Dataset:
-![](o20.png)
+![](img/o20.png)
 ## Binary Encoding:
-![](o21.png)
+![](img/o21.png)
 ## Encoded Dataset:
-![](o23.png)
+![](img/o23.png)
 ## Data Scaling using MinMaxScaler:
-![](o24.png)
+![](img/o24.png)
 ## Data Scaling using StandardScaler:
-![](o25.png)
+![](img/o25.png)
 ## Data Scaling using MaxAbsScaler:
-![](o26.png)
+![](img/o26.png)
 ## Data Scaling using RobustScaler:
-![](o27.png)
+![](img/o27.png)
 
 # RESULT:
 Feature Generation process and Feature Scaling process is applied to the given data frames sucessfully.
